@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  value: 1.5
+  date: 2023-10-03 21:52:46
+  account: one
+
+two:
+  title: MyString
+  value: 1.5
+  date: 2023-10-03 21:52:46
+  account: two
