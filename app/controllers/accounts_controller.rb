@@ -13,10 +13,12 @@ class AccountsController < ApplicationController
   # GET /accounts/new
   def new
     @account = Account.new
+    @currencies = Account.currencies
   end
 
   # GET /accounts/1/edit
   def edit
+    @currencies = Account.currencies
   end
 
   # POST /accounts or /accounts.json
@@ -65,6 +67,6 @@ class AccountsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def account_params
-      params.require(:account).permit(:name, :currency_name, :currency_symbol)
+      params.require(:account).permit(:name, :currency)
     end
 end

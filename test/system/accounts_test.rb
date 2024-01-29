@@ -27,8 +27,7 @@ class AccountsTest < ApplicationSystemTestCase
     visit account_url(@account)
     click_on "Edit this account", match: :first
 
-    fill_in "Currency name", with: @account.currency_name
-    fill_in "Currency symbol", with: @account.currency_symbol
+    fill_in "Currency", with: @account.currency
     fill_in "Name", with: @account.name
     click_on "Update Account"
 

@@ -1,0 +1,1 @@
+- When updating, the account is not bringing selected the right currency

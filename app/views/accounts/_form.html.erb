@@ -17,14 +17,11 @@
   </div>
 
   <div>
-    <%= form.label :currency_name, style: "display: block" %>
-    <%= form.text_field :currency_name %>
+    <%= form.label :currency, style: "display: block" %>
+    <%= form.select :currency, Account.currencies %>
   </div>
 
-  <div>
-    <%= form.label :currency_symbol, style: "display: block" %>
-    <%= form.text_field :currency_symbol %>
-  </div>
+  <br>
 
   <div>
     <%= form.submit %>

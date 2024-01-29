@@ -2,10 +2,8 @@
 
 one:
   name: MyString
-  currency_name: MyString
-  currency_symbol: MyString
+  currency: eur
 
 two:
   name: MyString
-  currency_name: MyString
-  currency_symbol: MyString
+  currency: brl
